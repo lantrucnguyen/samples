@@ -9,7 +9,7 @@ const deviceName = process.env.KOBITON_DEVICE_NAME || 'iPhone*'
 
 const kobitonServerConfig = {
   protocol: 'https',
-  host: 'api.kobiton.com',
+  host: 'api-test.kobiton.com',
   auth: `${username}:${apiKey}`
 }
 
