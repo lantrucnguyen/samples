@@ -6,6 +6,7 @@
     "test": "mocha --require babel-core/register --no-timeouts *.js",
     "android-web-test": "mocha --require babel-core/register --no-timeouts android-web-test.js",
     "android-app-test": "mocha --require babel-core/register --no-timeouts android-app-test.js",
+    "android-hybrid-app-test": "mocha --require babel-core/register --no-timeouts android-hybrid-app-test.js",
     "ios-web-test": "mocha --require babel-core/register --no-timeouts ios-web-test.js",
     "ios-app-test": "mocha --require babel-core/register --no-timeouts ios-app-test.js",
     "multiple-devices-test": "mocha --require babel-core/register --no-timeouts multiple-devices-test.js",
